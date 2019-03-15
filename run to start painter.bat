@@ -1,0 +1,1 @@
+start ./painter/build_phasorpaint/compiled/krom-windows/ArmorPaint.exe

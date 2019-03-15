@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project version="2">
+	<!-- Output SWF options -->
+	<output>
+		<movie outputType="Application" />
+		<movie input="" />
+		<movie path="krom\krom.js.temp" />
+		<movie fps="30" />
+		<movie width="800" />
+		<movie height="600" />
+		<movie version="16" />
+		<movie minorVersion="0" />
+		<movie platform="JavaScript" />
+		<movie background="#ffffff" />
+		<movie preferredSDK="..\..\..\engine\armsdk\Kha\Tools\haxe" />
+	</output>
+	<!-- Other classes to be compiled into your SWF -->
+	<classpaths>
+		<class path="..\..\..\engine\armsdk\Kha\Sources" />
+		<class path="..\..\..\engine\armsdk\Kha\Backends\Krom" />
+		<class path="..\..\Sources" />
+		<class path="..\..\..\engine\armsdk\armory\Sources" />
+		<class path="..\..\..\engine\armsdk\iron\Sources" />
+		<class path="..\..\Libraries\paint\Sources" />
+		<class path="..\..\..\engine\armsdk\lib\zui\Sources" />
+		<class path="..\..\..\engine\armsdk\lib\iron_format\Sources" />
+		<class path="..\..\..\engine\armsdk\armory" />
+		<class path="..\..\..\engine\armsdk\iron" />
+		<class path="..\..\Libraries\paint" />
+		<class path="..\..\..\engine\armsdk\lib\zui" />
+		<class path="..\..\..\engine\armsdk\lib\iron_format" />
+	</classpaths>
+	<!-- Build options -->
+	<build>
+		<option directives="" />
+		<option flashStrict="False" />
+		<option noInlineOnDebug="False" />
+		<option mainClass="Main" />
+		<option enabledebug="False" />
+		<option additional="-D hxcpp_smart_strings&#xA;-D G:/FPS/Phasor/engine/armsdk/armory&#xA;-D G:/FPS/Phasor/engine/armsdk/iron&#xA;-D paint&#xA;-D G:/FPS/Phasor/engine/armsdk/lib/zui&#xA;-D G:/FPS/Phasor/engine/armsdk/lib/iron_format&#xA;-D arm_deferred&#xA;-D arm_voxelgi&#xA;-D arm_voxelgi_revox&#xA;-D arm_ltc&#xA;-D rp_hdr&#xA;-D rp_renderer=Deferred&#xA;-D rp_background=World&#xA;-D rp_render_to_texture&#xA;-D rp_compositornodes&#xA;-D rp_antialiasing=TAA&#xA;-D arm_veloc&#xA;-D arm_taa&#xA;-D rp_supersampling=4&#xA;-D rp_ssgi=RTAO&#xA;-D rp_bloom&#xA;-D rp_ssr&#xA;-D rp_overlays&#xA;-D rp_gi=Voxel AO&#xA;-D rp_voxelgi_resolution=256&#xA;-D rp_voxelgi_resolution_z=1.0&#xA;-D rp_gbuffer2&#xA;-D arm_no_audio&#xA;-D kha_no_ogg&#xA;-D arm_soundcompress&#xA;-D arm_ui&#xA;-D arm_skin&#xA;-D arm_particles_gpu&#xA;-D arm_particles&#xA;-D arm_config&#xA;-D arm_resizable&#xA;-D arm_appwh&#xA;-D sys_krom&#xA;-D sys_g1&#xA;-D sys_g2&#xA;-D sys_g3&#xA;-D sys_g4&#xA;-D sys_a1&#xA;-D sys_a2&#xA;-D kha_js&#xA;-D kha_krom&#xA;-D kha_krom_js&#xA;-D kha_opengl&#xA;-D kha_g1&#xA;-D kha_g2&#xA;-D kha_g3&#xA;-D kha_g4&#xA;-D kha_a1&#xA;-D kha_a2&#xA;-D kha&#xA;-D kha_version=1810&#xA;-D kha_project_name=PhasorPaint&#xA;-D kha_output=&quot;G:\FPS\Phasor\painter\build_phasorpaint\debug\krom\krom.js.temp&quot;&#xA;arm.App&#xA;--macro keep('arm.App')&#xA;--macro include('arm.brushnode')&#xA;" />
+	</build>
+	<!-- haxelib libraries -->
+	<haxelib>
+		<!-- example: <library name="..." /> -->
+	</haxelib>
+	<!-- Class files to compile (other referenced classes will automatically be included) -->
+	<compileTargets>
+		<compile path="..\Sources\Main.hx" />
+	</compileTargets>
+	<!-- Paths to exclude from the Project Explorer tree -->
+	<hiddenPaths>
+		<!-- example: <hidden path="..." /> -->
+	</hiddenPaths>
+	<!-- Executed before build -->
+	<preBuildCommand />
+	<!-- Executed after build -->
+	<postBuildCommand alwaysRun="False" />
+	<!-- Other project options -->
+	<options>
+		<option showHiddenPaths="False" />
+		<option testMovie="Custom" />
+		<option testMovieCommand="run_krom.bat" />
+	</options>
+	<!-- Plugin storage -->
+	<storage />
+</project>
